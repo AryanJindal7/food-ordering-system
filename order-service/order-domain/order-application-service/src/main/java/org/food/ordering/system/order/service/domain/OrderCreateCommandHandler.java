@@ -1,12 +1,10 @@
-package org.food.ordering.system.order.service;
+package org.food.ordering.system.order.service.domain;
 
 import lombok.extern.slf4j.Slf4j;
-import org.food.ordering.system.order.service.create.CreateOrderCommand;
-import org.food.ordering.system.order.service.create.CreateOrderResponse;
-import org.food.ordering.system.order.service.domain.OrderDomainService;
+import org.food.ordering.system.order.service.domain.dto.create.CreateOrderCommand;
+import org.food.ordering.system.order.service.domain.dto.create.CreateOrderResponse;
 import org.food.ordering.system.order.service.domain.entity.Customer;
 import org.food.ordering.system.order.service.domain.entity.Order;
-import org.food.ordering.system.order.service.domain.entity.OrderItem;
 import org.food.ordering.system.order.service.domain.entity.Restaurant;
 import org.food.ordering.system.order.service.domain.event.OrderCreateEvent;
 import org.food.ordering.system.order.service.domain.exception.OrderDomainException;

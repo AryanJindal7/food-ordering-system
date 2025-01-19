@@ -1,4 +1,4 @@
-package org.food.ordering.system.order.service.message;
+package org.food.ordering.system.order.service.domain.dto.message;
 
 import org.food.ordering.system.domain.valueObject.OrderApprovedStatus;
 
