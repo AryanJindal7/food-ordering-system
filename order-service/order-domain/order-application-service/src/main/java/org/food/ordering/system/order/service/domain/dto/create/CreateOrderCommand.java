@@ -1,9 +1,8 @@
-package org.food.ordering.system.order.service.create;
+package org.food.ordering.system.order.service.domain.dto.create;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
-import lombok.NonNull;
 import org.food.ordering.system.order.service.domain.entity.OrderItem;
 
 import java.math.BigDecimal;

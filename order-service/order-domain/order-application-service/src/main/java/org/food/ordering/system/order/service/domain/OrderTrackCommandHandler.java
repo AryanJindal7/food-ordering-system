@@ -1,8 +1,8 @@
-package org.food.ordering.system.order.service;
+package org.food.ordering.system.order.service.domain;
 
 import lombok.extern.slf4j.Slf4j;
-import org.food.ordering.system.order.service.track.TrackOrderQuery;
-import org.food.ordering.system.order.service.track.TrackOrderResponseClass;
+import org.food.ordering.system.order.service.domain.dto.track.TrackOrderQuery;
+import org.food.ordering.system.order.service.domain.dto.track.TrackOrderResponseClass;
 import org.springframework.stereotype.Component;
 
 @Component
